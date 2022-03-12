@@ -32,37 +32,37 @@
 }
 
 .listagem .pokemon.ativo{
-    background-color: #FA6668;
+    background-color: #C2323D;
 }
 
 .listagem .tipo-grama:hover{
-    background-color: #40D0B0;
+    background-color: rgb(0,158,129);
 }
 
 .listagem .tipo-fogo:hover{
-    background-color: #FF4040;
+    background-color: rgb(194,0,0);
 }
 
 .listagem .tipo-agua:hover{
-    background-color: #76BEFE;
+    background-color: rgb(61,142,203);
 }
 
 .listagem .tipo-eletrico:hover{
-    background-color: #FCC719;
+    background-color: rgb(196,151,0);
 }
 
 .listagem .tipo-fantasma:hover{
-    background-color: #BA69C8;
+    background-color: rgb(136,58,151);
 }
 
 .listagem .tipo-dragao:hover{
-    background-color: #208370;
+    background-color: rgb(32,131,112);
 }
 
 .listagem .tipo-psiquico:hover{
-    background-color: #C58DA0;
+    background-color: rgb(197,141,160);
 }
 
 .listagem .pokemon.ativo:hover{
-    background-color: #FA6668;
+    background-color: #8b0017;
 }
