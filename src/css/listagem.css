@@ -34,3 +34,35 @@
 .listagem .pokemon.ativo{
     background-color: #FA6668;
 }
+
+.listagem .tipo-grama:hover{
+    background-color: #40D0B0;
+}
+
+.listagem .tipo-fogo:hover{
+    background-color: #FF4040;
+}
+
+.listagem .tipo-agua:hover{
+    background-color: #76BEFE;
+}
+
+.listagem .tipo-eletrico:hover{
+    background-color: #FCC719;
+}
+
+.listagem .tipo-fantasma:hover{
+    background-color: #BA69C8;
+}
+
+.listagem .tipo-dragao:hover{
+    background-color: #208370;
+}
+
+.listagem .tipo-psiquico:hover{
+    background-color: #C58DA0;
+}
+
+.listagem .pokemon.ativo:hover{
+    background-color: #FA6668;
+}
