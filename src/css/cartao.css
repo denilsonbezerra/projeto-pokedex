@@ -101,8 +101,8 @@
 }
 
 .cartao-pokemon .informacoes-principais .status, .cartao-pokemon .informacoes-principais .habilidades{
-    padding: 0 10px;
-    width: 180px;
+    padding: 0 15px;
+    width: 50%;
 }
 
 .cartao-pokemon .informacoes-principais ul li{
