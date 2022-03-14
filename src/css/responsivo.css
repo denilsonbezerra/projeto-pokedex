@@ -65,6 +65,11 @@
     }
 
     .listagem .pokemon span{
-        padding-right: 5px;
+        padding-left: 7px;
+        font-size: 12px;
+    }
+    
+    .listagem .pokemon.ativo{
+        border-radius: 100px;
     }
 }
