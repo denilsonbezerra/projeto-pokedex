@@ -1,11 +1,15 @@
 @media (max-width: 750px){
     body{
         font-size: 12px;
+        background-size: 150vh;
+    }
+
+    header img{
+        width: 250px;
     }
 
     .pokedex{
         flex-direction: column;
-        padding: 30px 0;
     }
 
     .cartao-pokemon{
@@ -71,5 +75,11 @@
     
     .listagem .pokemon.ativo{
         border-radius: 100px;
+    }
+}
+
+@media (max-width: 400px){
+    *{
+        size: 100%;
     }
 }
