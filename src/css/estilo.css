@@ -3,11 +3,13 @@
 body{
     font-family: 'Poppins', sans-serif;
     background: url(../img/pokebola-bg.jpg);
-    background-size: 120%;
+    background-size: 50%;
+    background-position: center;
 }
 
 header{
     display: flex;
+    margin-bottom: 10px;
 }
 
 header img{
@@ -24,6 +26,6 @@ main{
 
 .pokedex{
     display: flex;
-    gap: 30px;
+    gap: 15px;
     padding: 10px 0 30px;
 }

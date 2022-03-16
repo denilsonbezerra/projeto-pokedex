@@ -1,5 +1,7 @@
 .listagem{
     max-width: 200px;
+    max-height: 580px;
+    overflow-y: scroll;
 }
 
 .listagem .pokemon{
@@ -8,7 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 10px;
+    margin: 0 7px 10px;
     padding: 0 5px;
     cursor: pointer;
     border-top-right-radius: 30px;
@@ -16,7 +18,7 @@
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     min-height: 55px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgba(100, 100, 111, 0.2) 3px 3px 5px 0px;
     transition: 0.25s ease-in-out;
 }
 
@@ -37,7 +39,7 @@
 
 .listagem .pokemon.ativo{
     border-top-left-radius: 20px;
-    background-color: #8B0000;
+    background-color: rgb(43, 41, 147);
 }
 
 .listagem .pokemon.ativo:hover{
@@ -65,7 +67,7 @@
 }
 
 .listagem .tipo-dragao:hover{
-    background-color: rgb(32,131,112);
+    background-color: rgb(112,56,248);
 }
 
 .listagem .tipo-psiquico:hover{

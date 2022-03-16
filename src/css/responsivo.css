@@ -1,7 +1,6 @@
 @media (max-width: 750px){
     body{
         font-size: 12px;
-        background-size: 150vh;
     }
 
     header img{
@@ -48,7 +47,7 @@
     }
 
     .listagem{
-        max-width: 300px;
+        max-width: 320px;
     }
 
     .listagem ul{
@@ -60,7 +59,7 @@
     .listagem .pokemon{
         width: 140px;
         border-radius: 100px;
-        margin-bottom: 0;
+        margin: 0 2.5px;
     }
 
     .listagem .pokemon img{
@@ -75,11 +74,5 @@
     
     .listagem .pokemon.ativo{
         border-radius: 100px;
-    }
-}
-
-@media (max-width: 400px){
-    *{
-        size: 100%;
     }
 }
