@@ -75,7 +75,7 @@
 }
 
 .listagem::-webkit-scrollbar{
-    width: 15px;
+    width: 13px;
 }
 
 .listagem::-webkit-scrollbar-track{
