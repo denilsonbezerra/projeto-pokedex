@@ -5,12 +5,12 @@
 }
 
 .listagem .pokemon{
-    background-color: #6B727A;
+    background-color: #453daa;
     color: #FFFFFF;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 7px 10px;
+    margin: 5px 7px 10px;
     padding: 0 5px;
     cursor: pointer;
     border-top-right-radius: 30px;
@@ -72,4 +72,21 @@
 
 .listagem .tipo-psiquico:hover{
     background-color: rgb(197,141,160);
+}
+
+.listagem::-webkit-scrollbar{
+    width: 15px;
+}
+
+.listagem::-webkit-scrollbar-track{
+    background: rgba(47,44,149,0.5);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.listagem::-webkit-scrollbar-thumb{
+    background: rgb(47,44,149);
+    border-radius: 0px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
