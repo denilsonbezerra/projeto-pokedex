@@ -1,10 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap');
 
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-track{
+    background: #1d1e83;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #000666;
+    border-radius: 15px;
+}
+
 body{
     font-family: 'Poppins', sans-serif;
-    background: url(../img/pokebola-bg.jpg);
-    background-size: 50%;
-    background-position: center;
+    background: rgb(47,44,149);
+    background: linear-gradient(90deg, rgba(47,44,149,1) 0%, rgba(101,86,198,1) 45%, rgba(101,86,198,1) 55%, rgba(47,44,149,1) 100%);
 }
 
 header{
@@ -20,7 +32,6 @@ header img{
 main{
     min-height: 100vh;
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
