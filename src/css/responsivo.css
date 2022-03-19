@@ -48,6 +48,7 @@
 
     .listagem{
         max-width: 320px;
+        overflow-y: unset;
     }
 
     .listagem ul{
