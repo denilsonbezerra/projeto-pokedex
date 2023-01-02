@@ -1,2 +1,2 @@
 # projeto-pokedex
-Criando uma Pokédex usando HTML5, CSS3 e JavaScript.
+Criando uma Pokédex mostrando dados de alguns Pokémons usando HTML5, CSS3 e JavaScript.
